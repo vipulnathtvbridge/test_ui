@@ -23,8 +23,8 @@ productTemplates:
     childBlocks:
       combination: IncludeSelected
       selections:
-      - id: Products
       - id: Banner
+      - id: Products
   id: Category
   name:
     en-US: Category

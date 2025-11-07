@@ -7,8 +7,8 @@ websiteTemplates:
     childBlocks:
       combination: IncludeSelected
       selections:
-      - id: Products
       - id: Banner
+      - id: Products
   - id: Content
     name:
       en-US: Content
@@ -16,8 +16,8 @@ websiteTemplates:
     childBlocks:
       combination: IncludeSelected
       selections:
-      - id: Products
       - id: Banner
+      - id: Products
   settings:
     indexThePage: true
   type: Page
