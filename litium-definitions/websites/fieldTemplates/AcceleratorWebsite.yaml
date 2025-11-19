@@ -13,8 +13,8 @@ websiteTemplates:
     childBlocks:
       combination: IncludeSelected
       selections:
-      - id: SecondaryNavigationLink
       - id: PrimaryNavigationLink
+      - id: SecondaryNavigationLink
   settings:
     indexThePage: false
   type: Website

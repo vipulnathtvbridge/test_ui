@@ -1,0 +1,51 @@
+blockTemplates:
+- category: Pages
+  icon:
+    style: far
+    id: fa-cubes
+  childBlocks:
+    combination: IncludeSelected
+  type: Block
+  fieldGroups:
+  - id: General
+    name:
+      en-US: General
+      sv-SE: Allmänt
+    fields:
+    - id: _name
+    - id: SectionTitle
+    - id: TitleFontColor
+    - id: BackgroundColor
+    - id: IsFullWidth
+    administration:
+      collapsed: false
+    storefront:
+      visible: false
+  - id: ProductConfiguration
+    name:
+      en-US: Product Configuration
+      sv-SE: Produktkonfiguration
+    fields:
+    - id: ProductsLinkList
+    - id: MaxProducts
+    - id: GridColumns
+    administration:
+      collapsed: false
+    storefront:
+      visible: true
+  - id: ViewAllButton
+    name:
+      en-US: View All Button
+      sv-SE: Visa alla-knapp
+    fields:
+    - id: ShowViewAllButton
+    - id: ViewAllButtonText
+    - id: ViewAllLink
+    administration:
+      collapsed: false
+    storefront:
+      visible: true
+  id: GLRelatedProducts
+  name:
+    en-US: Related Products Block (GL)
+    sv-SE: Relaterade produkter block (GL)

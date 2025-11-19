@@ -2,13 +2,9 @@ blockTemplates:
 - category: Pages
   icon:
     style: fas
-    id: fa-table-columns
+    id: fa-list
   childBlocks:
     combination: IncludeSelected
-    selections:
-    - id: PrimaryNavigationBanner
-    - id: PrimaryNavigationCategories
-    - id: NavigationLinks
   type: Block
   fieldGroups:
   - id: General
@@ -17,10 +13,20 @@ blockTemplates:
       sv-SE: Allmänt
     fields:
     - id: _name
+    - id: CategoryList
     administration:
       collapsed: false
     storefront:
       visible: false
-  id: PrimaryNavigationColumn
+  - id: Styling
+    fields:
+    - id: BackgroundColor
+    - id: FullWidthBlock
+    administration:
+      collapsed: false
+    storefront:
+      visible: true
+  id: GLProductCategory
   name:
-    en-US: Primary navigation column
+    en-US: Product Category Block (GL)
+    sv-SE: Product Category Block (GL)

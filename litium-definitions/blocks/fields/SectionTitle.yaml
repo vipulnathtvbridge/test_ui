@@ -1,0 +1,17 @@
+blockFields:
+- id: SectionTitle
+  type: TextOption
+  name:
+    en-US: Section Title
+    sv-SE: Sektionrubrik
+  settings:
+    multiCulture: true
+    administration:
+      columns: false
+      filter: false
+      readonly: false
+    storefront:
+      visible: true
+      searchable: true
+  option:
+    items: []

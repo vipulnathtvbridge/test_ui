@@ -1,0 +1,15 @@
+blockFields:
+- id: MaxProducts
+  type: Int
+  name:
+    en-US: Maximum Products to Display
+    sv-SE: Maximalt antal produkter att visa
+  settings:
+    multiCulture: false
+    administration:
+      columns: false
+      filter: false
+      readonly: false
+    storefront:
+      visible: true
+      searchable: false

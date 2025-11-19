@@ -1,0 +1,22 @@
+blockTemplates:
+- category: Pages
+  icon:
+    style: fas
+    id: fa-arrows-v
+  childBlocks:
+    combination: All
+  type: Block
+  fieldGroups:
+  - id: General
+    fields:
+    - id: _name
+    - id: EmptyBlockSize
+    - id: BackgroundColor
+    administration:
+      collapsed: false
+    storefront:
+      visible: false
+  id: GLEmpty
+  name:
+    en-US: Empty Block (GL)
+    sv-SE: Empty Block (GL)

@@ -1,0 +1,15 @@
+blockFields:
+- id: ShowViewAllButton
+  type: Boolean
+  name:
+    en-US: Show View All Button
+    sv-SE: Visa Visa alla-knapp
+  settings:
+    multiCulture: true
+    administration:
+      columns: false
+      filter: false
+      readonly: false
+    storefront:
+      visible: true
+      searchable: false

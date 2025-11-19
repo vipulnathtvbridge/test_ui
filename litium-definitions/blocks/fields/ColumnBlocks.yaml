@@ -1,0 +1,24 @@
+blockFields:
+- id: ColumnBlocks
+  type: MultiField
+  name:
+    en-US: ColumnBlocks
+    sv-SE: ColumnBlocks
+  settings:
+    multiCulture: false
+    administration:
+      columns: false
+      filter: false
+      readonly: false
+    storefront:
+      visible: true
+      searchable: true
+  option:
+    fields:
+    - BlockTitle
+    - MultiLangEditor
+    - BlockImagePointer
+    - NavigationLink
+    - isButton
+    - BackgroundOverlay
+    isArray: true

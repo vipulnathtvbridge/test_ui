@@ -1,0 +1,15 @@
+blockFields:
+- id: GridBanner
+  type: Text
+  name:
+    en-US: Grid Banner
+    sv-SE: Rutnätsbanner
+  settings:
+    multiCulture: false
+    administration:
+      columns: false
+      filter: false
+      readonly: false
+    storefront:
+      visible: true
+      searchable: true

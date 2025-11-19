@@ -1,0 +1,17 @@
+blockFields:
+- id: ViewAllLink
+  type: Pointer
+  name:
+    en-US: View All Link
+    sv-SE: Visa alla-länk
+  settings:
+    multiCulture: false
+    administration:
+      columns: false
+      filter: false
+      readonly: false
+    storefront:
+      visible: true
+      searchable: false
+  option:
+    entityType: WebsitesPage

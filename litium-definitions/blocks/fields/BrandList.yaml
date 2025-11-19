@@ -1,0 +1,21 @@
+blockFields:
+- id: BrandList
+  type: MultiField
+  name:
+    en-US: List of brands
+    sv-SE: Varumärkeslista
+  settings:
+    multiCulture: false
+    administration:
+      columns: false
+      filter: false
+      readonly: false
+    storefront:
+      visible: true
+      searchable: true
+  option:
+    fields:
+    - BlockImagePointer
+    - Title
+    - NavigationLink
+    isArray: true

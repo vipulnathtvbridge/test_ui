@@ -1,0 +1,17 @@
+blockFields:
+- id: FormReceiverEmail
+  type: TextOption
+  name:
+    en-US: Form Receiver Email
+    sv-SE: Mottagare e-postadress
+  settings:
+    multiCulture: true
+    administration:
+      columns: false
+      filter: false
+      readonly: false
+    storefront:
+      visible: true
+      searchable: true
+  option:
+    items: []
